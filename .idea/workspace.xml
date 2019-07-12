@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="864048b7-ff67-4cfd-b524-eefd8e2ace33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chooseMenu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/mapper/ProvinceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/pojo/Area.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/service/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/service/impl/ProvinceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/utils/JedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/utils/JedisClientPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/chx/chooseMenu/mapper/ProvinceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/chooseMenu-1.0-SNAPSHOT.war" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/chooseMenu-1.0-SNAPSHOT/WEB-INF/classes/com/chx/chooseMenu/controller/ProvinceController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/chooseMenu-1.0-SNAPSHOT/WEB-INF/classes/com/chx/chooseMenu/mapper/ProvinceMapper.class" afterDir="false" />
@@ -101,6 +77,8 @@
       <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-07-11" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chooseMenu/org/apache/jsp/index_jsp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chooseMenu/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="106">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,9 +221,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/chx/chooseMenu/mapper/ProvinceMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java" />
       </list>
     </option>
   </component>
@@ -285,11 +263,17 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="237" />
-    <option name="width" value="1448" />
-    <option name="height" value="738" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1449" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -297,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,19 +325,26 @@
               <item name="chooseMenu" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chooseMenu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chooseMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chooseMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Web作业/bin/svn.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -361,7 +354,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -388,7 +381,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\ASUS\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -400,17 +393,27 @@
       <workItem from="1562675865658" duration="6741000" />
       <workItem from="1562761340918" duration="5994000" />
       <workItem from="1562838451383" duration="4372000" />
-      <workItem from="1562919867531" duration="802000" />
+      <workItem from="1562919867531" duration="4335000" />
+      <workItem from="1562935146100" duration="1345000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次上穿">
+      <created>1562920813269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562920813269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17909000" />
+    <option name="totallyTimeSpent" value="22787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="190" width="1158" height="590" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35272726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -446,6 +449,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次上穿" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次上穿" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -496,6 +503,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -551,23 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chx/chooseMenu/controller/ProvinceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -44,13 +44,10 @@ public class ProvinceController {
             cityList = provinceService.findAllCity(id);
             String cityJson = JsonUtils.objectToJson(cityList);
             jedisClientPool.set("city",cityJson);
-            System.out.println("这是从数据库中查的");
         } else {
             cityList = JsonUtils.jsonToList(city,Area.class);
-            System.out.println("这是从缓存来的");
         }
         return cityList;
-//        return provinceService.findAllCity(id);
     }
 
     @RequestMapping("/countryServlet")
@@ -62,10 +59,8 @@ public class ProvinceController {
             conturyList = provinceService.findAllContury(id);
             String conturyJson = JsonUtils.objectToJson(conturyList);
             jedisClientPool.set("contury",conturyJson);
-            System.out.println("县这是从数据库中查的");
         } else {
             conturyList = JsonUtils.jsonToList(contury,Area.class);
-            System.out.println("县这是从缓存来的");
         }
         return conturyList;
     }
